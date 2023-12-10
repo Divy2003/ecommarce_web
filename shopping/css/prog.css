@@ -1,0 +1,753 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.logo img {
+    height: 90%;
+   width: 42%;
+   border: 3px solid rgb(255, 255, 255);
+   border-radius: 50px;
+}
+
+.logo {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0%;
+    cursor: pointer;
+    height: 85px;
+    z-index: 1;
+    background-color:#647d55;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.navlist {
+
+    width: 76%;
+    
+    display: flex;
+    align-items: center;
+}
+
+.navlist li {
+    list-style: none;
+    padding: 26px 30px;
+    font-size: 25px;
+
+}
+
+.navlist li a {
+    text-decoration: none;
+    color: white;
+}
+
+.navlist li a:hover {
+
+    color: brown;
+}
+
+.rightnav {
+    width: 40%;
+    margin-right: 30px;
+    text-align: right;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #5f5555;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .show {display:block;}
+
+  
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+      /*footer css*/
+    
+    .footer{
+      background-color:rgb(255, 255, 255);
+      /* padding-bottom: 7rem; */
+   }
+   
+   .footer .grid{
+      display: flex;
+      justify-content: center;
+      gap:12.5rem;
+      align-items: flex-start;
+   }
+   .footer .grid .box h3{
+      font-size: 1rem;
+      color:var(--black);
+      margin-bottom: 2rem;
+      text-transform: capitalize;
+   }
+   
+   .footer .grid .box a{
+      display: block;
+      margin:1.5rem 0;
+      font-size: 0.7rem;
+      color:var(--light-color);
+   }
+   
+   .footer .grid .box a i{
+      padding-right: 1rem;
+      color:var(--main-color);
+      transition: .2s linear;
+   }
+   
+   .footer .grid .box a:hover{
+      color:var(--main-color);
+   }
+   
+   .footer .grid .box a:hover i{
+      padding-right: 2rem;
+   }
+   
+   .footer .credit{
+      text-align: center;
+      padding: 2.5rem 2rem;
+      border-top: var(--border);
+      font-size: 2rem;
+      color:var(--black);
+   }
+   
+   .footer .credit span{
+      color:var(--main-color);
+   }
+
+
+.btn-sm {
+    padding: 6px 10px;
+    vertical-align: middle;
+}
+
+.btn-last {padding: 10px 16px;
+    vertical-align: middle;
+    margin: 18px;
+    background-color: cornflowerblue;
+        display: flex;
+        font-size: 17px;
+        box-shadow: 2px 2px 2px black;
+}
+.btn-last:hover{
+    box-shadow: 10px 5px 5px red;
+    background-color: bisque;
+}
+/* Style the Buy Now and Add to Cart buttons */
+.btn-block {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  text-align: center;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn-block:hover {
+  background-color: #45a049;
+}
+
+/* Style the disabled button */
+.btn-block.disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.background {
+    background: rgba(0, 0, 0, 0.7) url(background.jpg);
+    
+    background-size: cover;
+    background-blend-mode: darken;
+    box-shadow:0 0.5rem 1rem #0006; 
+ 
+    margin: auto;
+    border-radius: 20px;
+    padding: 10px 313px;
+}
+
+.firstsection {
+    height: 100vh;
+   
+}
+
+
+.box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 60%;
+    margin: auto;
+    height: 80%;
+}
+.signin-up{
+    display: flex;
+}
+
+.firsthalf {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+}
+::selection {
+    background-color: #ffcc00;
+    color: #333;
+  }
+
+.secondhalf {
+    width: 30%;
+}
+
+.secondhalf img {
+    width: 120%;
+    border-radius: 5cm;
+}
+
+.text-big {
+    font-size: 40px;
+
+}
+
+.text-small {
+    font-size: 20px;
+}
+
+
+.icons {
+    position: relative;
+    display: flex;
+}
+.secondhalf img {
+
+    width: 185px;
+    height: 160px;
+    margin: 10px;
+}
+.section {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    padding: 10px;
+
+}
+.sectiontag {
+    padding: 16px 0;
+}
+
+.paras {
+    padding: 0px 65px;
+}
+
+.thumbnail img {
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 26px;
+    margin-top: 19px;
+    height: 300px;
+    box-shadow: 0 0 20px black;
+}
+
+
+
+.text-center {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 35px;
+}
+
+
+.text-footer {
+    text-align: center;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.total-servicess{
+    
+    margin: auto;
+    border-radius: 20px;
+    padding: 10px 313px;
+    box-shadow: 0 0.5rem 1rem #0006;
+    columns: 3;
+   background-color:  #efebe5;
+   box-shadow: 0 0.5rem 1rem #0006;
+    
+}
+   .service {
+    border: 2px solid #931818;
+    padding: 50px;
+    text-align: center;
+    width: 8cm;
+    height: 8cm;
+    cursor: pointer;
+    border-radius: 1000px;
+    box-shadow: 0 0.5rem 1rem #0006;;
+   
+    
+  }
+  .service:hover{
+
+   
+    background-color: bisque;
+}
+
+.container {
+   
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.about-us {
+    
+    background-color: #e4dede;
+    padding: 50px 0;
+    text-align: center;
+    padding: 50px 313px;
+   
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 0 0.5rem 1rem #0006;;
+    
+}
+
+.about-us h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.about-us p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+} 
+
+/*signup form*/
+/* Style the form container */
+.form-container {
+    width: 300px;
+    margin: 0 auto;
+}
+
+/* Style the form elements */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style the submit button */
+.btn-primary {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Hover effect for the submit button */
+.btn-primary:hover {
+    background-color: #45a049;
+}
+
+   /*cnntact form css*/  
+.contact form{
+    padding:2rem;
+    text-align: center;
+    background-color: var(--white);
+    box-shadow: var(--box-shadow);
+    border-radius: .5rem;
+    border:var(--border);
+    max-width: 50rem;
+    margin:0 auto;
+ }
+ 
+ .contact form h3{
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+    font-size: 2.5rem;
+    color:var(--black);
+ }
+ 
+ .contact form .box{
+    margin:0.2cm;
+    width: 100%;
+    background-color: var(--light-bg);
+    padding:1.4rem;
+    font-size: 1.8rem;
+    color:var(--black);
+    border-radius: .5rem;
+ }
+ 
+ .contact form textarea{
+    height: 10rem;
+    resize: none;
+ }
+ /*prog4 css*/
+ .section-prog4 {
+    display: flex;
+    font-size: 20px;
+    
+}
+.leftt-div{
+   
+    box-shadow: 0 0.5rem 1rem #0006;
+   height: 560px;
+    margin: 30px 30px 30px 30px;
+    border-radius: 20px;
+    
+}
+
+.productlast_img {
+    border-radius: 20px;
+    height: 100%;
+    width: 500px;
+    object-fit: cover;
+  }
+
+.rightt-div{
+  
+   height: 560px;
+    margin: 30px 30px 30px 30px;
+ width: 100%;
+    border-radius: 20px;
+   
+    box-shadow: 0 0.5rem 1rem #0006;
+}
+
+.rightt-div p{ 
+    text-align: left;
+    padding: 5px;
+    margin-bottom: 0.5cm;
+}
+.rightt-div h1{
+    
+    text-align: left;
+    padding: 10px;
+}
+.tablee {
+    border-collapse: collapse;
+    margin-left: 20px;
+
+    text-align: left;
+   
+  }
+  .tablee td {
+    border: 1px solid rgb(255, 255, 255);
+   
+    text-align: center;
+  }
+  .tablee button{
+    padding: 25px;
+    font-size: 30px;
+  }
+  .tablee button:hover{
+    background-color: rgb(70, 70, 243);
+  
+  }
+
+  .disc{
+   padding: 10px;
+    align-items: center;
+    margin: 30px 30px 30px 30px;
+ 
+    border-radius: 20px;
+   
+    box-shadow: 0 0.5rem 1rem #0006;
+  }
+  .disc p{
+    font-size: 20px;
+  }
+
+
+  /*prog2 css*/
+
+  * {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+ 
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.categories-container {
+  justify-content: center;
+  display: flex;
+  /*grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  */grid-gap: 30px;
+  padding: 20px;
+}
+
+.category-box {
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.category-box img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.category-box:hover {
+  transform: scale(1.05);
+}
+.icons{
+  grid-gap: 80px;
+  display: flex;
+  justify-content: center;
+}
+.btn{
+  font-size: 30px;
+  }
+  .total-products{
+      width: 15cm;
+      margin: auto;
+  }
+  .featured-products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      grid-gap: 5rem;
+      margin-left: 20px;
+      margin-right: 30px;
+    }
+    .product2 {
+      border: 2px solid #d9d9d9;
+     
+      text-align: center;
+      padding-bottom: 20px; 
+      box-shadow: 4px 4px 4px 1px lightgrey;
+    }
+  .product2:hover{
+      background-color: #b4a7a7;
+      box-shadow: 8px 8px 8px 2px lightgrey;
+  }
+  
+    .product_img {
+      width: 100%;
+      max-height: 200px;
+      object-fit: cover;
+    }
+    
+    .product h3 {
+      font-size: 1.2rem;
+      margin: 0.5rem 0;
+    }
+    
+    .product p {
+      font-size: 1rem;
+      color: #666;
+      margin: 0.5rem 0;
+    }
+    
+    .price {
+      font-size: 1.1rem;
+      font-weight: bold;
+      color: #333;
+    }
+    /*style my cart*/
+    .container {
+      margin-top: 30px;
+  }
+  
+  .table {
+      width: 100%;
+      border-collapse: collapse;
+  }
+  
+  .table th {
+      background-color: #f2f2f2;
+      text-align: center;
+      padding: 12px;
+      font-weight: bold;
+  }
+  
+  .table td {
+      text-align: center;
+      padding: 10px;
+  }
+  
+  .table tr:nth-child(even) {
+      background-color: #f2f2f2;
+  }
+  
+  .table a {
+      color: #ff0000;
+      text-decoration: none;
+  }
+  
+  .btn-primary {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+      margin-top: 10px;
+  }
+  
+  .btn-primary:hover {
+      background-color: #45a049;
+  }
