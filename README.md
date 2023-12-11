@@ -21,4 +21,4 @@ file:///C:/Users/rapat/OneDrive/Desktop/Screenshots/Screenshot%202023-12-11%2016
 file:///C:/Users/rapat/OneDrive/Desktop/Screenshots/Screenshot%202023-12-11%20165346.png
 
 ### login,logout and reset password
-file:///C:/Users/rapat/OneDrive/Desktop/Screenshots/Screenshot%202023-12-11%20171557.png
+![Screenshot 2023-12-11 171557](https://github.com/Divy2003/ecommarce_web/assets/101808420/42d63a64-1a5b-48e8-b584-1eed55ad0863)
