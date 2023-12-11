@@ -9,7 +9,7 @@ A brief description of what this project does and who it's for
 
 ### home page
 
-file:///C:/Users/rapat/OneDrive/Desktop/Screenshots/Screenshot%202023-12-11%20165419.png
+C:/Users/rapat/OneDrive/Desktop/Screenshots/Screenshot%202023-12-11%20165419.png
 
 ###  Add to Cart 
 file:///C:/Users/rapat/OneDrive/Desktop/Screenshots/Screenshot%202023-12-11%20165156.png
